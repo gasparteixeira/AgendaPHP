@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2016, 12:08:42 AM
+    Author     : gaspar
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: none;
+}
+
+table.calendario {
+    border: 1px solid #eee;
+    padding: 5px;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+table.calendario tr td{
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+}
+table.calendario tr td:first-child {
+    background-color: #f0f0f0;
+}
+table.calendario tr td.clicavel {
+    cursor: pointer;
+}
+
+
+table.calendario tr td.clicavel:hover {
+    background:  #e0e0e0;
+    
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
